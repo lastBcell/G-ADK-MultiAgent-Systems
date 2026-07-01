@@ -8,7 +8,7 @@ load_dotenv()
 
 root_agent = Agent(
     model=os.getenv('MODEL'),
-    name='root_agent',
-    description='A helpful assistant for user questions.',
-    instruction='Answer user questions to the best of your knowledge',
+    name='math-tutor-agent',
+    description='Help students understand maths problems guiding them through problem solving solution',
+    instruction='you are a patient math tutor,helps students with algebraic problems ',
 )
